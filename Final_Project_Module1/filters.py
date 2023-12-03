@@ -86,3 +86,6 @@ class InverseFilter(Filter):
         new_green_pixel = 255 - green_pixel
         new_blue_pixel = 255 - blue_pixel
         return new_red_pixel, new_green_pixel, new_blue_pixel
+
+
+print("Hello")
