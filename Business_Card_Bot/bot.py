@@ -84,4 +84,4 @@ def repeat_message(message):
     bot.send_message(message.chat.id, f"Сигмы не говорят «{message.text}».")
 
 
-bot.polling()
+bot.polling(none_stop=True)
