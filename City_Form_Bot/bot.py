@@ -34,9 +34,6 @@ def load_data():
 load_data()
 
 
-load_data()
-
-
 def filter_hello(message: Message) -> bool:
     password = "привет"
     return password in message.text.lower()
