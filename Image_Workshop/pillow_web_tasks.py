@@ -1,3 +1,4 @@
+
 # Повтори методы обработки изображения за наставником
 
 from PIL import Image
@@ -130,14 +131,4 @@ from PIL import Image
 img = Image.open("meme.png").convert("L")
 
 w, h = img.size
-
-for i in range(w): # проходимся по ширине
-    for j in range(h): # проходимся по высоте
-        # получаем цвет
-
-
-        # как-либо меняем цвет
-
-        # сохраняем пиксель обратно
-
 img.show() # показываем изображение

@@ -90,7 +90,7 @@ elif choice == 2:
               "Вы просыпаетесь у себя дома.\n"
         )
         win = True
-if win == True
+if win == True:
     print("Поздравляем! Вы выжили.")
 elif win == False:
     print("YOU DIED.")
